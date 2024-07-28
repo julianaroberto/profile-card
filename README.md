@@ -24,6 +24,6 @@ What I tried for the first time:
 
 ## Sharing your solution
 
--[finished-projects channel](https://www.frontendmentor.io/community). 
+- [finished-projects channel](https://www.frontendmentor.io/solutions/social-links-profile-BPfky_uAh5)
 
 
