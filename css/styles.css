@@ -18,11 +18,6 @@
     font-style: normal;
 }
 
-body {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-
 /* layout */
 
 .tudo {
@@ -113,7 +108,6 @@ html {
 }
 
 /*  media queries */
-
 @media screen and (min-width: 1024px){
     body{
             margin-top: 0;
