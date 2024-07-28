@@ -25,13 +25,13 @@ body {
 
 /* layout */
 
-main {
+.tudo {
     display: block;
     text-align: center;
     background-color: var(--grey700);
-    max-width: 340px;
-    width: 50%;
-    padding: 20px;
+    max-width: 31em;
+    width: 100%;
+    padding: 20px 0;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -50,10 +50,9 @@ img {
     margin: auto;
 }
 
-ol {
-    list-style-type: none;
+footer {
+    margin-bottom: 100px;
 }
-
 
 /* cores */
 
@@ -79,64 +78,89 @@ body {
     margin-bottom: 15px;
 }
 
-.links {
-    display: block;
-    text-align: center;
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.links-g, .links-f, .links-l, .links-t, .links-i {
+button {
     background-color: var(--grey800);
     border: none;
+    color: var(--white);
+    padding: 10px;
+    margin: 6px;
+    width: 70%;
     border-radius: 7px;
     font-weight: 600;
-    width: 90%;
-    height: 40px;
-   align-content: center;
-    padding:0;
-    margin-bottom: 15px;
-    color: var(--white);
+    transition: background .3s;
 }
-a {
-    text-decoration: none;
+
+button:hover {
+    background: var(--green);
     cursor: pointer;
 }
-
-
-.links-g:hover {
-    background-color: var(--green);
-   
-}
-
-.links-f:hover {
-    background-color: var(--green);
-}
-
-.links-l:hover {
-    background-color: var(--green);
-}
-
-.links-t:hover {
-    background-color: var(--green);
-}
-
-.links-i:hover {
-    background-color: var(--green);
-} 
 
 html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 700px){
+@media screen and (min-width: 1024px){
+    body{
+            margin-top: 0;
+            padding: 30px;
+            
+        }
+       .tudo {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        min-width: 40vh;
+        margin-top: 100px;
+        margin-bottom: 0;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+        body{
+                margin-top: 0;
+                padding: 30px;
+                
+            }
+        .tudo {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            width: 80vh;
+            margin: auto;
+            margin-top: 100px;
+            padding: 25px 0;
+            }
+        footer{
+                margin: auto;
+            }
+    }
+
+@media screen and (max-width: 767px){
 
     body {
-        margin-top: 0;
-        margin-bottom: 0;
-        
+        margin:0;
+        padding: 30px;
     }
-   main {
-    min-width: 360px;
+
+   .tudo {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    min-width: 30vh;
+    padding: 25px 0;
     margin-top: 100px;
     margin-bottom: 0;
+    }
+
+    footer{
+        margin-top: 0;
+        margin-bottom: 5.5em;
     }
 }
