@@ -32,7 +32,7 @@
     border-radius: 10px;
 }
 
-p {
+p  {
     display: block;
     text-align: center;
     font-size: 1.1em;
@@ -44,7 +44,7 @@ img {
     align-items: center;
     border-radius: 100px;
     width: 100px;
-    margin: auto;
+    margin: 10px auto;
 }
 
 footer {
@@ -57,11 +57,11 @@ body {
     background-color: var(--grey900);
 }
 
-.profile {
+.profile, h1 {
     font-size: 25px;
     color: var(--white);
     font-weight: 600;
-    margin: 25px;
+    margin: 5px 0;
 }
 
 .location {
