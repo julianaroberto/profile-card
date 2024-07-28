@@ -80,6 +80,8 @@ body {
     margin-bottom: 5px;
 }
 
+/*  botões */
+
 .btn {
     display: flex;
     flex-direction: column;
@@ -109,6 +111,8 @@ button:hover {
 html {
     scroll-behavior: smooth;
 }
+
+/*  media queries */
 
 @media screen and (min-width: 1024px){
     body{
